@@ -5,14 +5,21 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     android:orientation="vertical"
-    tools:context=".MenuActivity"
-    android:layout_margin="16dp">
+    tools:context=".MenuActivity">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnSaludApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SaludApp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:text="SaludApp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIMCApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="IMCApp" />
 </LinearLayout>
